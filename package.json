@@ -1,4 +1,7 @@
 {
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
   "fitbit": {
     "appUUID": "a0d968c6-4227-4e45-b039-079c410a6c9e",
     "appType": "clockface",
@@ -11,12 +14,13 @@
       "access_internet"
     ],
     "buildTargets": [
-      "meson"
+      "vulcan"
     ],
     "i18n": {
-      "en": {
+      "en-US": {
         "name": "ImageClock"
       }
-    }
+    },
+    "defaultLanguage": "en-US"
   }
 }
